@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="10" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="F:/GitHub/LuaStudy20180131/ide/ldt/L0201HelloLua/src" timestamp="1517360619392" lastAccessTime="1517361047551">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/608415810/1.idx"/>
+  </entries>
+  <entries path="F:/GitHub/LuaStudy20180131/ide/ldt/L0202Table/src" timestamp="1517361088021" lastAccessTime="1517361326348">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/406252056/3.idx"/>
+  </entries>
+  <entries path="F:/GitHub/LuaStudy20180131/ide/ldt/L0203Array/src" timestamp="1517361360507" lastAccessTime="1517362058118">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/2219792460/5.idx"/>
+  </entries>
+  <entries path="F:/GitHub/LuaStudy20180131/ide/ldt/L0301OO1/src" timestamp="1517362251632" lastAccessTime="1517363534745">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/1181033583/7.idx"/>
+  </entries>
+  <entries path="F:/GitHub/LuaStudy20180131/ide/ldt/L0302OO2/src" timestamp="1517363726073" lastAccessTime="1517364133494">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/3453606459/9.idx"/>
+  </entries>
+</cache:CacheIndex>

@@ -1,0 +1,5 @@
+F:\GitHub\LuaStudy20180131\ide\ldt\.metadata\.plugins\org.eclipse.dltk.core\718319410.index
+F:\GitHub\LuaStudy20180131\ide\ldt\.metadata\.plugins\org.eclipse.dltk.core\61337002.index
+F:\GitHub\LuaStudy20180131\ide\ldt\.metadata\.plugins\org.eclipse.dltk.core\2682150910.index
+F:\GitHub\LuaStudy20180131\ide\ldt\.metadata\.plugins\org.eclipse.dltk.core\1538383968.index
+F:\GitHub\LuaStudy20180131\ide\ldt\.metadata\.plugins\org.eclipse.dltk.core\3490520628.index

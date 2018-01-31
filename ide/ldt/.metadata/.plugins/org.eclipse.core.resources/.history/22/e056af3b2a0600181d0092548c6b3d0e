@@ -1,0 +1,17 @@
+--函数闭包的方式实现面向对象
+function People(name)
+	local self = {}
+	local  function init()
+		this.name = name
+	end
+	self.name = name
+	
+	self.sayHi = function ()
+	  print("People say Hi ".. self.name)	
+	end
+	init()	
+	return self
+end
+
+local p = People("zhangsan")
+p.sayHi()

@@ -1,0 +1,23 @@
+function clone(tab)
+    local ins = {}
+    for key, var in pairs(tab) do
+    	ins[key] = var
+    end
+    return ins	
+end
+
+
+People  = {}
+
+--定义对象的方法
+--1、
+--function People.sayHi()
+--	print("Say Hi")
+--end
+--2、
+People.sayHi = function ()
+    print("Say Hi")	
+end
+
+local p = clone(People)
+p.sayHi()

@@ -1,0 +1,55 @@
+function clone(tab)
+    local ins = {}
+    for key, var in pairs(tab) do
+    	ins[key] = var
+    end
+    return ins	
+end
+
+function copy(dist,tab)
+    for key, var in pairs(tab) do
+    	dist[key] = var
+    end
+end
+
+
+People  = {}
+
+--定义对象的方法
+--1、
+--function People.sayHi()
+--	print("Say Hi")
+--end
+--2、
+People.sayHi = function (self)
+    print("Say Hi "..self.name)  
+end
+
+People.new = function (name)
+	local self = clone(People)
+	self.name = name
+	return self
+end
+
+--local p = clone(People)
+--p.sayHi()
+
+local p1 = People.new("zhangsan")
+--p1.sayHi(p1)
+p1:sayHi() --默认把自身当作参数传入进去
+
+
+--继承
+Man = {}
+Man.new = function (name)
+    local self = People.new(name)
+    copy(self,People)
+    return self
+end
+
+Man.sayHello = function ()
+    print("man say Hello")
+end
+
+local m = Man.new("Lisi")
+m.sayHello()

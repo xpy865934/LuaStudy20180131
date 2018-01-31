@@ -1,0 +1,7 @@
+People  = {}
+
+--定义对象的方法
+--1、
+function People.sayhi()
+	print("Say Hi")
+end

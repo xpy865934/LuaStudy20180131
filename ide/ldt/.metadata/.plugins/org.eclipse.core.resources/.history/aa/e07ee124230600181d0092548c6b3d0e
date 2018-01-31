@@ -1,0 +1,9 @@
+--print("Hello lua")
+
+--local num = 100
+--print(num)
+
+function sayHello(parameters)
+	print("Hello Lua")
+end
+
